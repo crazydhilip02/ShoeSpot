@@ -1,8 +1,9 @@
 import React from 'react';
 import { Download, GraduationCap } from 'lucide-react';
+import RESUMEDHILIP from '../assets/RESUMEDHILIP.png'
 
 const Resume: React.FC = () => {
-  const resumeDownloadLink = "https://drive.google.com/uc?export=download&id=1Urh5uJXWovYyQ6O-furg028dsf-6t2U9";
+  const resumeDownloadLink = RESUMEDHILIP;
 
 
   const basicEducation = [
@@ -45,7 +46,7 @@ const Resume: React.FC = () => {
         <div className="flex justify-center mb-10">
           <a 
             href={resumeDownloadLink} 
-            download="Dhiliip_Resume.pdf" 
+            download="Dhiliip_Resume.png" 
             className="flex items-center bg-indigo-600 text-white px-6 py-3 rounded-md font-medium hover:bg-indigo-700 transition-colors duration-300"
           >
             <Download size={20} className="mr-2" />
